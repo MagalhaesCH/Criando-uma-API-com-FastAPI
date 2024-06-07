@@ -1,0 +1,11 @@
+Manipulação de Exceções de Integridade dos Dados
+
+ `exceptions.py`
+
+```python
+from fastapi import HTTPException, status
+
+class IntegrityErrorHandler(HTTPException):
+    def __init__(self, cpf: str):
+        super().__init__(status_code=303, detail=f"Já existe um atleta cadastrado com o cpf: {cpf}")
+```
