@@ -1,0 +1,20 @@
+Estrutura do Projeto
+
+Vamos organizar nosso projeto com a seguinte estrutura:
+
+```
+fastapi_atletas/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   ├── database.py
+│   ├── crud.py
+│   ├── schemas.py
+│   └── exceptions.py
+│
+├── venv/
+│
+└── requirements.txt
+```
