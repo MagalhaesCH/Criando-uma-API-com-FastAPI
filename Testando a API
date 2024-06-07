@@ -1,0 +1,9 @@
+Testando a API
+
+Para testar nossa API, podemos usar o comando `uvicorn` para executar o servidor FastAPI:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Com o servidor rodando, podemos acessar a documentação automática gerada pelo FastAPI em `http://127.0.0.1:8000/docs`.
